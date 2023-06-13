@@ -1,0 +1,480 @@
+.App {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.container {
+  text-align: center;
+  margin: auto;
+  width: 300px;
+}
+
+.time-slots {
+  list-style-type: none;
+  padding: 0;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 300px;
+  margin: auto;
+  border-radius: 8px;
+}
+
+.card-header {
+  background-color: #f1f1f1;
+  padding: 16px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.card-body {
+  padding: 16px;
+}
+
+.time-slots {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  font-size: 20px;
+  border: groove;
+  border-radius: 15px;
+  padding: 4px;
+}
+
+.mymain {
+  margin: 19px;
+}
+
+.all {
+  display: flex;
+  align-items: baseline;
+}
+
+.allday {
+  gap: 50px;
+}
+
+.endtime,
+.starttime {
+  height: 40px;
+  width: 139px;
+}
+
+
+/* .icon {
+  display: flex !important;
+  justify-content: space-around !important;
+  flex-direction: column !important;
+} */
+
+.btncreate {
+  margin-top: 37px;
+}
+
+.timed {
+  margin-top: 25px;
+}
+
+
+.allday {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.allday h4 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.alllabel {
+  margin: 0;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.timed {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.starttime,
+.endtime {
+  margin-right: 10px;
+  width: 120px;
+}
+
+.icon {
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.btncreate {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btncreate:hover {
+  background-color: #0056b3;
+}
+
+.allllllllll {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px;
+}
+
+.namefild {
+  margin-top: 20px;
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.namefild label {
+  font-weight: bold;
+}
+
+.namefild input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  font-size: 16px;
+  width: 100%;
+}
+
+.namefild input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px #007bff;
+}
+
+.timezone {
+  width: 181px !important;
+  margin-bottom: 16px;
+}
+
+.timezone label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.timezone select {
+  padding: 12px;
+  border: 2px solid #007bff;
+  border-radius: 4px;
+  outline: none;
+  font-size: 16px;
+  width: 100%;
+  background-color: #fff;
+  color: #333;
+  transition: border-color 0.3s ease;
+}
+
+.timezone select:focus {
+  border-color: #0056b3;
+  box-shadow: 0 0 5px #007bff;
+}
+
+.timezone select option {
+  padding: 8px;
+}
+
+.timezone select option:hover {
+  background-color: #f2f2f2;
+}
+
+
+.timezoneclass {
+  margin-top: 10px;
+  margin-bottom: 13px;
+}
+
+
+.carddiv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 5px;
+  text-align: center;
+  width: 200px;
+}
+
+.allday {
+  margin: 9px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h4 {
+  margin-top: 0;
+  color: #333;
+}
+
+.alllabel {
+  margin-top: 10px;
+  font-style: italic;
+  color: #888;
+}
+
+.all {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.timed {
+  display: flex;
+  align-items: center;
+}
+
+.starttime,
+.endtime {
+  margin-right: 10px;
+}
+
+.icon {
+  margin-top: 10px;
+  cursor: pointer;
+  color: #0084ff;
+}
+
+.icon:hover {
+  color: #005cbf;
+}
+
+.delete-icon {
+  cursor: pointer;
+  margin-left: 10px;
+  color: #ff0000;
+}
+
+.delete-icon:hover {
+  color: #bf0000;
+}
+
+
+.btn {
+  height: 4em;
+  width: 12em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: 0px solid black;
+}
+
+.wrapper {
+  height: 2em;
+  width: 8em;
+  position: relative;
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  font-size: 17px;
+  z-index: 1;
+  color: #000;
+  padding: 4px 12px;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.7);
+  transition: all 0.5s ease;
+}
+
+.flower {
+  display: grid;
+  grid-template-columns: 1em 1em;
+  position: absolute;
+  transition: grid-template-columns 0.8s ease;
+}
+
+.flower1 {
+  top: -12px;
+  left: -13px;
+  transform: rotate(5deg);
+}
+
+.flower2 {
+  bottom: -5px;
+  left: 8px;
+  transform: rotate(35deg);
+}
+
+.flower3 {
+  bottom: -15px;
+  transform: rotate(0deg);
+}
+
+.flower4 {
+  top: -14px;
+  transform: rotate(15deg);
+}
+
+.flower5 {
+  right: 11px;
+  top: -3px;
+  transform: rotate(25deg);
+}
+
+.flower6 {
+  right: -15px;
+  bottom: -15px;
+  transform: rotate(30deg);
+}
+
+.petal {
+  height: 1em;
+  width: 1em;
+  border-radius: 40% 70% / 7% 90%;
+  background: linear-gradient(#07a6d7, #93e0ee);
+  border: 0.5px solid #96d1ec;
+  z-index: 0;
+  transition: width 0.8s ease, height 0.8s ease;
+}
+
+.two {
+  transform: rotate(90deg);
+}
+
+.three {
+  transform: rotate(270deg);
+}
+
+.four {
+  transform: rotate(180deg);
+}
+
+.btn:hover .petal {
+  background: linear-gradient(#0761d7, #93bdee);
+  border: 0.5px solid #96b4ec;
+}
+
+.btn:hover .flower {
+  grid-template-columns: 1.5em 1.5em;
+}
+
+.btn:hover .flower .petal {
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.btn:hover .text {
+  background: rgba(255, 255, 255, 0.4);
+}
+
+.btn:hover div.flower1 {
+  animation: 15s linear 0s normal none infinite running flower1;
+}
+
+@keyframes flower1 {
+  0% {
+    transform: rotate(5deg);
+  }
+
+  100% {
+    transform: rotate(365deg);
+  }
+}
+
+.btn:hover div.flower2 {
+  animation: 13s linear 1s normal none infinite running flower2;
+}
+
+@keyframes flower2 {
+  0% {
+    transform: rotate(35deg);
+  }
+
+  100% {
+    transform: rotate(-325deg);
+  }
+}
+
+.btn:hover div.flower3 {
+  animation: 16s linear 1s normal none infinite running flower3;
+}
+
+@keyframes flower3 {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.btn:hover div.flower4 {
+  animation: 17s linear 1s normal none infinite running flower4;
+}
+
+@keyframes flower4 {
+  0% {
+    transform: rotate(15deg);
+  }
+
+  100% {
+    transform: rotate(375deg);
+  }
+}
+
+.btn:hover div.flower5 {
+  animation: 20s linear 1s normal none infinite running flower5;
+}
+
+@keyframes flower5 {
+  0% {
+    transform: rotate(25deg);
+  }
+
+  100% {
+    transform: rotate(-335deg);
+  }
+}
+
+.btn:hover div.flower6 {
+  animation: 15s linear 1s normal none infinite running flower6;
+}
+
+@keyframes flower6 {
+  0% {
+    transform: rotate(30deg);
+  }
+
+  100% {
+    transform: rotate(390deg);
+  }
+}
+
+
+MenuItem {
+  z-index: 1;
+}
+
+
+.timezone {
+  width: 214px !important;
+}
